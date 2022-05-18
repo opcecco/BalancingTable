@@ -5,7 +5,7 @@ import sys
 import numpy as np
 import pandas as pd
 
-damage_scale = 0.25
+damage_scale = 0.0
 
 df = pd.read_csv(sys.argv[1], dtype = str)
 
